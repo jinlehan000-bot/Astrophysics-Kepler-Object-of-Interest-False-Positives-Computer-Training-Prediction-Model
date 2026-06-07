@@ -12,6 +12,7 @@ NASA Exoplanet Archive - Kepler KOI cumulative table.
 - Transit depth
 - Planet radius
 - Signal-to-noise ratio
+- Kepler flags 
 
 ## Methods
 - Random Forest Classifier
