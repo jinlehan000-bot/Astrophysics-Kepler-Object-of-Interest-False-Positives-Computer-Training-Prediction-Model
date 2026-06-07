@@ -1,2 +1,31 @@
 # Astrophysics-Kepler-Object-of-Interest-False-Positives-Computer-Training-Prediction-Model
-Trains on Kepler Object of Interest. High performances in testing. Can predict new exoplanet chance of false positives based on current data from flags and planet parameter
+# Exoplanet False Positive Prediction
+
+## Overview
+This project uses machine learning to predict whether a Kepler Object of Interest (KOI) is likely to be a false positive based on transit parameters.
+
+## Dataset
+NASA Exoplanet Archive - Kepler KOI cumulative table.
+
+## Features
+- Orbital period
+- Transit depth
+- Planet radius
+- Signal-to-noise ratio
+
+## Methods
+- Random Forest Classifier
+- Train/Test Split
+- Class Balancing
+- Feature Importance Analysis
+
+## Results
+Accuracy: XX%
+ROC-AUC: XX%
+
+## Installation
+pip install -r requirements.txt
+
+## Usage
+python train_model.py
+python predict.py
